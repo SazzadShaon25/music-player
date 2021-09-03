@@ -15,29 +15,27 @@ function audioSong (songId){
 function imagesSet(imagesName){
 
      const songImages = imagesName ;
-    // console.log(songImages);
-    // const image_src = `images/${songImages}`;
+    
     const image = document.getElementById('song-images');
     image.setAttribute("src",`images/${songImages}`);
-    // const musicDrive = document.getElementById('music-drive');
-    // musicDrive.innerHTML =`
-    // <img src="images/${songImages}" class="w-100 p-2 rounded mx-auto d-block " alt="">
-    // `;
+   
 }
 
 function audioSet (audioName){
 
 
-    const audioTrack = document.getElementById("audio-set");
-    // audioTrack.classList.add("audio-player");
-    audioTrack.innerHTML = `
+    const audioTrack = document.getElementById("play-song");
+    audioTrack.setAttribute("src",`audio/${audioName}`);
+    
+    
+    // audioTrack.innerHTML = `
     
    
-    <audio class="ms-5 mt-3 audio-player w-75"  src="audio/${audioName}" controls autoplay></audio>
+    // <audio class="ms-5 mt-3 audio-player w-75"  src="audio/${audioName}" controls autoplay></audio>
     
 
 
-    `;
+    // `;
 
 
 }
@@ -49,12 +47,6 @@ const firstName = document.getElementById("first-song").addEventListener("click"
  
 
 });
-// function firstSong() {
-    
-    
-
-// }
-
 
 function secondSong(){
     audioSong("second-song");
@@ -70,12 +62,6 @@ function thirdSong(){
 
 }
 
-
-// const fourthSong(){
-
-    
-    
-// }
 const fourthName = document.getElementById("fourth-song").addEventListener("click",function(){
 
     audioSong("fourth-song")

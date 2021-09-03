@@ -1,7 +1,7 @@
 
 body{
 
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: darkgray;
 
 }
@@ -13,7 +13,7 @@ body{
 .first-div{
     margin-left: 10%;
     border-radius: 50px;
-    height: 580px;
+    height: 600px;
     padding: 6px 10px;
 }
 .music-list h5:hover{
@@ -31,4 +31,10 @@ body{
 }
 .audio-set{
     margin-left: 6%;
+}
+footer h4{
+
+    color:maroon;
+    font-weight: 700;
+   
 }
