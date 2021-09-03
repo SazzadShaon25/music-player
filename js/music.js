@@ -14,13 +14,15 @@ function audioSong (songId){
 
 function imagesSet(imagesName){
 
-    const songImages = imagesName ;
-    console.log(songImages);
-    
-    const musicDrive = document.getElementById('music-drive');
-    musicDrive.innerHTML =`
-    <img src="images/${songImages}" class="w-100 p-2 rounded mx-auto d-block " alt="">
-    `;
+     const songImages = imagesName ;
+    // console.log(songImages);
+    // const image_src = `images/${songImages}`;
+    const image = document.getElementById('song-images');
+    image.setAttribute("src",`images/${songImages}`);
+    // const musicDrive = document.getElementById('music-drive');
+    // musicDrive.innerHTML =`
+    // <img src="images/${songImages}" class="w-100 p-2 rounded mx-auto d-block " alt="">
+    // `;
 }
 
 function audioSet (audioName){
