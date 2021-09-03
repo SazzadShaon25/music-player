@@ -27,17 +27,6 @@ function audioSet (audioName){
     const audioTrack = document.getElementById("play-song");
     audioTrack.setAttribute("src",`audio/${audioName}`);
     
-    
-    // audioTrack.innerHTML = `
-    
-   
-    // <audio class="ms-5 mt-3 audio-player w-75"  src="audio/${audioName}" controls autoplay></audio>
-    
-
-
-    // `;
-
-
 }
 const firstName = document.getElementById("first-song").addEventListener("click",function(){
     audioSong("first-song");
