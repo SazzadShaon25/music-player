@@ -40,23 +40,19 @@ function audioSet (audioName){
 
 }
 const firstName = document.getElementById("first-song").addEventListener("click",function(){
-
-    
-    // document.getElementById("first-song").style.backgroundColor = "maroon";
-   
     audioSong("first-song");
    
     setSongName("first-song");
     imagesSet("Duure Duure.PNG");
-
+ 
 
 });
-// const secondName = document.getElementById("second-song").addEventListener("click",function(){
+// function firstSong() {
+    
+    
 
-//     audioSong("second-song");
-//     setSongName("second-song");
+// }
 
-// });
 
 function secondSong(){
     audioSong("second-song");
@@ -71,12 +67,18 @@ function thirdSong(){
     
 
 }
+
+
+// const fourthSong(){
+
+    
+    
+// }
 const fourthName = document.getElementById("fourth-song").addEventListener("click",function(){
 
     audioSong("fourth-song")
     setSongName("fourth-song");
     imagesSet("Mombati.PNG");
-    
 
 });
 function fifthSong(){
