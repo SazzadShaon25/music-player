@@ -19,7 +19,7 @@ function imagesSet(imagesName){
     
     const musicDrive = document.getElementById('music-drive');
     musicDrive.innerHTML =`
-    <img src="/images/${songImages}" class="w-100 p-2 rounded mx-auto d-block " alt="">
+    <img src="images/${songImages}" class="w-100 p-2 rounded mx-auto d-block " alt="">
     `;
 }
 
@@ -31,7 +31,7 @@ function audioSet (audioName){
     audioTrack.innerHTML = `
     
    
-    <audio class="ms-5 mt-3 audio-player w-75"  src="/audio/${audioName}" controls autoplay></audio>
+    <audio class="ms-5 mt-3 audio-player w-75"  src="audio/${audioName}" controls autoplay></audio>
     
 
 
