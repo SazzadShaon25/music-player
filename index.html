@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <!------------- bootstarp addded ------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+
+</head>
+<body>
+  
+    <section class="conatiner mt-5 ">
+      <div class="row mx-md-n4">
+         <div class="col px-md-5 first-div" >
+            <div class="p-3  bg-dark ms-3 first-div "
+           >
+              <div  id="music-drive">
+                <img src="/images/demo.png" class="w-75 rounded mx-auto d-block " alt="">
+              </div>
+              <h3 class="text-white text-center mb-4">Now Playing: <span id="song-name">A Thousand Years.mp3
+       
+              </span></h3>
+       
+              <div id="audio-set" class="audio-set w-100 ">
+               <audio class="mx-5 mt-3 audio-player w-75"  src="" controls autoplay></audio>
+              </div>
+          </div>
+        </div>
+        <div class="col px-md-5 second-div">
+          <div class="p-3  bg-dark  second-div">
+              <div class="mb-5">
+                  <h2 class="text-center text-white">My Music List</h2>
+              </div>
+              <div class="bg-secondary border rounded w-75 mx-auto mb-5">
+                <div class="text-white text-center music-list   " style="height: 410px; overflow-y: scroll;
+                ">
+                
+                  <h5  id="first-song" class="my-4">
+                    Duure Duure.mp3</h5>
+                    <hr>
+                  <h5 id="second-song" onclick="secondSong()"
+                   class="my-2"> AKasher Nilima.mp3</h5>
+                   <hr>
+                  <h5 id="third-song" onclick="thirdSong()" class="my-2"> Shoto Danar Projapoti.mp3</h5>
+                  <hr>
+                  <h5 id="fourth-song" class="my-2"> Mombati.mp3</h5>
+                  <hr>
+                  <h5 id="fifth-song" onclick="fifthSong()" class="my-2"> Level Five-60's Love.mp3</h5>
+                  <hr>
+                  <h5 id="sixth-song" onclick="sixthSong()" class="my-2"> perfect.mp3</h5>
+                  <hr>
+                  <h5 id="seventh-song" onclick="seventhSong()" class="my-2">Uthshorgo.mp3</h5>
+                  <hr>
+                  <h5 id="eigth-song" onclick="eighthSong()" class="my-2">Bhindeshi Tara.mp3</h5>
+                  <hr>
+                  <h5 id="ninth-song" onclick="ninthSong()" class="my-2">Fire Eshona.mp3</h5>
+                  <hr>
+                  <h5 id="tenth-song" onclick="tenthSong()" class="my-2 mb-2"> Valobasha tarpor.mp3</h5>
+
+
+                  
+
+
+                  </div>  
+                
+
+              </div>
+          </div>
+        
+        </div>
+      </div>
+  
+    </section>
+
+
+
+
+
+
+    <!-------------- bootstrap js file added ---------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+    <!-------------- custom js file addded ----------------->
+    <script src="js/music.js"></script>
+</body>
+</html>
